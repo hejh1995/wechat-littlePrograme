@@ -1,0 +1,99 @@
+/* components/search/index.wxss */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  background-color: #fff;
+  position: fixed;
+  height: 100rpx;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  width: 750rpx;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+}
+.search-container {
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 20rpx;
+}
+.icon {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 24rpx;
+  margin-right: 16rpx;
+}
+.cancel-img {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 20rpx;
+}
+.bar {
+  height: 68rpx;
+  width: 500rpx;
+  font-size: 28rpx;
+}
+.cancel {
+  width: 120rpx;
+  text-align: center;
+}
+.history {
+  width: 690rpx;
+  margin: 160rpx 0 20rpx 0;
+  font-size: 28rpx;
+}
+.hot-search {
+  margin-top: 70rpx;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.chunk {
+  height: 30rpx;
+  width: 10rpx;
+  background-color: #000;
+  margin-right: 20rpx;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24rpx;
+  padding-left: 30rpx;
+  width: 680rpx; 
+}
+.tags v-tag {
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 90rpx;
+  justify-content: space-between;
+  margin-top: 100rpx;
+  width: 570rpx;
+}
+.books-container v-book {
+    margin-bottom: 25rpx;
+}
+.empty-tip {
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  position: absolute;
+}
+.loading-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.loading {
+  margin: 50rpx 0;
+}

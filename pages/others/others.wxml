@@ -1,0 +1,4 @@
+<view class='qr'>
+  <image class="qr-image" src="{{qrUrl}}" bind:tap="scanQr"></image>
+  <text class='qr-text'>扫描二维码即可关注</text>
+</view>

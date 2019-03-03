@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330rpx;
+  background-color: #fff;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+}
+.tag {
+  margin: -2rpx 0 0 20rpx;
+  height: 40rpx;
+  width: 72rpx;
+  font-size: 24rpx;
+  background-color: #f7f7f7!important;
+}
+.like {
+  margin: 4rpx 4rpx 0 0;
+}
+.music-img {
+  border-radius: 50%;
+  width: 240rpx;
+  height: 240rpx;
+}
+.other-img {
+  width: 100%;
+  height: 240rpx;
+}
+.text {
+  padding: 30rpx;
+  font-size: 28rpx;
+  height: 130rpx;
+  color: #666;
+  overflow: hidden;
+}

@@ -1,0 +1,5 @@
+/* pages/text-learn/text-learn.wxss */
+.intro {
+  margin: 30px;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+<!-- <view hidden="{{hidden}}" class='container'>
+  <image src="{{img}}" class='img'></image>
+  <image src="./images/movie.png" class='tag'></image>
+  <view class='content'>{{content}}</view>
+</view> -->
+<import src="../common.wxml"/>
+<template is="movie" data="{{staticImg,img,hidden,content}}"></template>
+

@@ -1,0 +1,8 @@
+<template name="movie">
+  <view hidden="{{hidden}}" class='container'>
+    <image src="{{img}}" class='img'></image>
+    <image src="{{staticImg}}" class='tag'></image>
+    <view class='content'>{{content}}</view>
+  </view>
+</template>
+

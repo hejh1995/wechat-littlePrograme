@@ -1,0 +1,18 @@
+.container image {
+  width: 32rpx;
+  height: 28rpx;
+}
+.container text {
+  font-size: 24rpx;
+  color: #bbbbbb;
+  position: relative;
+  bottom: 10rpx;
+  left: 10rpx;
+  line-height: 24rpx;
+  /* rpx 可以实现自适应 */
+  /* line-height 设置为字体的大小，可以去除字体的上下间隔空白。在设计中，应该尽量去除一些无意义的空白 */
+}
+.container {
+  display: inline-flex;
+  padding: 10rpx;
+}

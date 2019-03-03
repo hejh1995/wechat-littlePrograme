@@ -1,0 +1,5 @@
+page {
+  /* 在每一个页面中，都会自动在最外层添加一个page标签 */
+  font-family: "PingFangSC-Thin";
+  font-size: 32rpx;
+}

@@ -1,0 +1,10 @@
+/* pages/others/others.wxss */
+.qr-image {
+  width: 500rpx;
+}
+.qr {
+  text-align: center;
+}
+.qr-text {
+  display: block;
+}
